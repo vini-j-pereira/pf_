@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #fff;
+}
+
+.container-nav{
+    background-image: url(img/tom-the-photographer-RQh6vkgKk_w-unsplash.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5%;
+    padding: 3vh;
+}
+
+.nav-bar ul{
+    display: flex;
+    gap: 8vh;
+}
+
+.nav-bar .logo p{
+    color: #ffffffa6;
+}
+
+.nav-bar ul li a{
+    color: #ffffffa6;
+    font-family: "Dancing Script", cursive;
+    font-style: italic;
+    transition: .3s ease;
+    font-size: 22px;
+}
+
+.nav-bar ul li a:hover{
+    color: #fff;
+}
+
+.nav-bar .logo{
+    font-family: "Playfair Display SC", serif;
+}
+
+.title-header{
+    color: #fff;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 500;
+    font-size: 160px;
+    position: absolute;
+    bottom: 0;
+
+}
